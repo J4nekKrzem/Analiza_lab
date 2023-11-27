@@ -47,8 +47,10 @@ class Order:
     def __str__(self):
         book_list = "\n".join([str(book) for book in self.books])
         return f"Order: {str(self.employee)}, {str(self.student)}, {book_list}, {self.order_date}"
-    
+
     # Stworzenie obiektów
+
+
 library1 = Library("City1", "Street1", "12345", "9 AM - 5 PM", "123-456-789")
 library2 = Library("City2", "Street2", "54321", "10 AM - 6 PM", "987-654-321")
 

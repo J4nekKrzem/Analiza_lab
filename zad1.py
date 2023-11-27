@@ -8,8 +8,11 @@ class Student:
         return average_marks > 50
 
 # Tworzenie dwóch obiektów klasy Student
+
+
 student1 = Student("Jan Kowalski", [60, 75, 80, 90])
 student2 = Student("Anna Nowak", [30, 40, 45, 20])
+
 
 # Wywołanie metody is_passed dla obiektów
 result1 = student1.is_passed()
