@@ -4,12 +4,16 @@ Należy uruchomić funkcję, wynik wykonania zapisać do zmiennej, a następnie 
 
 
 def sprawdzamczyparzy(liczba):
-  a = bool(liczba%2==0)
-  return a
+    a = bool(liczba % 2 == 0)
+    return a
+
+
 liczba = int(input("podaj liczbę:"))
+
+
 wynik = sprawdzamczyparzy(liczba)
 
 if wynik is True:
-  print("jest parzysta")
+    print("jest parzysta")
 else:
     print("nie jest parzysta")
